@@ -36,7 +36,7 @@ Dope badges from: [shields.io](https://shields.io/)
 
 - Outline and Complete Sorting Algorithm Commits
 
-- Add Contributoders.md file to allow Contributors to push PRs in other languages (Python, Java, ect...) 
+- Add Contributors.md file to allow Contributors to push PRs in other languages (Python, Java, ect...) 
 
 - Add more integrations
 
