@@ -1,0 +1,23 @@
+## Algorithm: Selection Sort
+## Mechanism: Brute Force
+## Code Type: Psuedo
+## Time Complexity: T(n) = n^2
+## Space Type: In-place (No Auxiliary (Extra) Space Used)  
+
+## Start from left most part of the array
+function SelectionSort(A): <--- int array of length n
+    for i in 0 to n - 1:
+        minvalue = A[i]
+        minindex = i
+        for rightIdx in i + 1 to n - 1:
+            if A[rightIdx] < minvalue:
+                minvalue = A[rightIdx]
+                minindex = rightIdx
+        swap A[i], A[minindex] 
+    return A            
+
+## Basic Swap for reference
+function swap a,b:
+    t = a
+    a = b 
+    b = t
