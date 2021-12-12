@@ -1,6 +1,5 @@
 class SelectionSort {
-    // inputArray = [];
-    
+
     constructor(inputArray){
         this.inputArray = inputArray;
     };
